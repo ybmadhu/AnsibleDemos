@@ -1,0 +1,10 @@
+---
+- hosts: RemoteHost
+  become: yes
+  become_user: root
+  tasks:
+   - debug:
+      msg: "Test from playbook"
+  roles:
+   - nginx 
+...

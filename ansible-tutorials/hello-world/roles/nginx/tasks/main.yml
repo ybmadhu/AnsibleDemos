@@ -1,0 +1,15 @@
+---
+- debug:
+   msg: In Nginx Role
+- name: Install Nginx
+  apt:
+   name: nginx
+   state: present
+  tags: [nginx]
+
+- name: Make sure Nginx service is enabled.
+  service:
+   name: nginx
+   state: started
+  tags: [nginx, status]
+...

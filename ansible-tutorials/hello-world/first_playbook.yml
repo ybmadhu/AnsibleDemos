@@ -1,0 +1,13 @@
+---
+- hosts: 192.168.56.101
+  tasks:
+   - debug:
+      msg: Installing nginx
+   - debug:
+      msg: Installing PHP
+
+- hosts: 192.168.56.101
+  tasks:
+   - debug:
+      msg: Installing MongoDB
+...

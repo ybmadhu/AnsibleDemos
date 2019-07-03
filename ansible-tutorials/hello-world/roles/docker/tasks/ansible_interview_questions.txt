@@ -1,0 +1,17 @@
+ansible interview questions
+--------------------------
+1. what is ansible? 
+2. what is difference between ansible and chef?
+3. i want to create users in my machine which is the most faster tool i.e ansible  or chef or puppet? 
+4. what is loop in ansible ?
+5. how to read the variables in playbooks ? 
+6. how to expose passwords in playbooks? 
+7. any other options other than vault? 
+8. how to get the gather facts..?
+9. what are the modules have you used?
+10. how ansible will works?
+11. what is static inventory and dynamic inventory?
+12. in my playbook number of tasks are there while running the second task is failure then my playbook will be execute others task or not?
+13. i want ignore my failure task and run other task in playbook how to do this?
+
+
